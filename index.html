@@ -4,16 +4,89 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>자기소개페이지</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <div class="left"></div>
+        <div class="left">
+            <div id="profile">
+                <img src="./self.png" alt="자기소개 사진" class="profile">
+            </div>
+            <h2>안녕하세요 안시환입니다.</h2>
+            <h3>즐거운 하루 되세요</h3>
+            <p>pirogramming</p>
+        </div>
         <div class="right">
-            <section></section>
-            <section></section>
-            <section></section>
-            <section></section>
-            <section></section>
+            <section class="skills">
+                <h2>기술</h2>
+                <div class="skill">
+                    <span>HTML</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 95%;">95</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>CSS</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 85%;">85</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>JavaScript</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;">75</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>python</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;">75</div>
+                    </div>
+                </div>
+                <div class="skill">
+                    <span>django</span>
+                    <div class="skill-bar">
+                        <div class="skill-level" style="width: 75%;">75</div>
+                    </div>
+                </div>
+            </section>
+            <section>
+                <h2>학력</h2>
+                <ul>
+                    <li> 중앙대학교</li>
+                    <li> 대건고등학교</li>
+                </ul>
+            </section>
+            <section class="awards">
+                <h2>수상 내역</h2>
+                <ul>
+                    <li> 수상1 </li>
+                    <li> 수상2 </li>
+                </ul>
+            </section>
+            <section class="projects">
+                <h2>프로젝트</h2>
+                <ul>
+                    <li>
+                        <h3>[프로젝트 이름 1]</h3>
+                        <p>[프로젝트 설명]</p>
+                        <p><a href="[프로젝트 링크]" target="_blank">프로젝트 링크</a></p>
+                    </li>
+                    <li>
+                        <h3>[프로젝트 이름 2]</h3>
+                        <p>[프로젝트 설명]</p>
+                        <p><a href="[프로젝트 링크]" target="_blank">프로젝트 링크</a></p>
+                    </li>
+                </ul>
+            </section>
+            <section class="contact">
+                <h2>contact</h2>
+                <ul class="contact"> 
+                    <li>010-6271-8673</li>
+                    <li>zxz8673@gmail.com</li>
+                    <li><a href="https://github.com/shwnahn">shwnahn</a></li>
+                </ul>
+            </section>
         </div>
     </div>
 </body>
